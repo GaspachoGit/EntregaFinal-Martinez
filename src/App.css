@@ -1,5 +1,24 @@
+body{
+  background-image: url(./img/pokemon-latias-latios-pixels-wallpaper-preview.jpg);
+  background-size: 165vh;
+}
+.titulo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  background-color: #563614;
+  color: #61dafb;
+}
+
+
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
 }
 
 .App-logo {
@@ -35,4 +54,90 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button-primary{
+  background-color: rgb(12, 5, 143);
+  color: bisque;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.button-primary:hover{
+  background-color: rgb(28, 173, 30);
+  color: #61dafb;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.prodImg{
+  height: 15rem;
+}
+.card{
+  background-color: rgba(0, 255, 255, 0.662);
+  border-radius: 5px;
+  border: solid 2px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.navBar{
+  background-color: #282c34;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.logo{
+  height: 6rem;
+}
+.navBar ul{
+	display:flex;
+	justify-content: flex-end;
+  align-items: center;
+	margin-right: 3%;
+}
+
+  .navBar ul li{
+		list-style: none;
+		margin-right: 12px;
+		display: inline-block;
+		font-size: 2rem;
+	}
+
+  .navBar ul li img{
+    display: grid;
+  }
+		.navBar ul li a{
+			text-decoration: none;
+			color: rgb(65, 3, 3);
+			display: inline-block;
+			background-color: rgb(155, 185, 237);
+			padding: 6px;
+			border-radius: 3px;
+		}
+
+			.navBar ul li a:hover{
+				background-color: rgb(65, 3, 3);
+				transition-duration: .35s;
+				color: rgb(155, 185, 237);
+			}
+.cart{
+  width: 3rem;
+  background-color: #61dafb;
+  border-radius: 3px;
+  padding: 0px 6px 0px 6px;
+  margin: auto;
+}
+.cart:hover{
+  background-color: rgb(77, 169, 77);
+  transition-duration: .35s;
+}
+.cart img{
+  width: 3rem;
 }

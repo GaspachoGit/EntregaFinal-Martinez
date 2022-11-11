@@ -1,11 +1,8 @@
 import React from 'react'
-const Cart = ({img})=>{
+const Cart = ()=>{
     return(
-        <li>
-            <img src={img}/>
-        </li>
+        <h1>Carrito</h1>
     )
-
 }
 
 export default Cart

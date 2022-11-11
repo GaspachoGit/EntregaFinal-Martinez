@@ -1,0 +1,26 @@
+.contenedor{
+    width: 95%;
+    margin: 5rem auto;
+    background-color: rgba(8, 136, 228, 0.673);
+    border-radius: 5px;
+}
+.detalle{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgDetalle{
+    width: 28%;
+    padding-left: 2%;
+}
+.contenido{
+    width: 66%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.descripcion{
+    font-size: 1.6rem;
+}

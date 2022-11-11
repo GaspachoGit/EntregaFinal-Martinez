@@ -1,24 +1,29 @@
 import React from 'react'
-import Cart from './CartWitget'
+import { NavLink } from 'react-router-dom'
 
 const NavBar = ({logo})=>{
     return(
         <nav className='navBar'>
-            <a><img src={logo} className='logo'/></a>
+            <NavLink to='/'><img src={logo} className='logo'/></NavLink>
             <ul>
-                
+
                 <li>
-                    <a>Proyecto</a>
-                </li>
-                <li>
-                    <a>Serie</a>
+                    <NavLink to='/'>Home</NavLink>
                 </li>
                 <li>
-                    <a>Juego</a>
+                    <NavLink to='/tipo/fuego'>fuego</NavLink>
                 </li>
-                <li className='cart'>
-                        <Cart img='https://cdn-icons-png.flaticon.com/512/107/107831.png'/>
+                <li>
+                    <NavLink to='/tipo/planta'>planta</NavLink>
                 </li>
+                <li>
+                    <NavLink to='/tipo/agua'>agua</NavLink>
+                </li>
+                <NavLink to ='/carrito'>
+                    <li className='cart'>
+                            <img src='https://cdn-icons-png.flaticon.com/512/107/107831.png'/>
+                    </li>
+                </NavLink>
             </ul>
         </nav>
     )

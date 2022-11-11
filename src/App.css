@@ -1,7 +1,8 @@
 body{
-  background-image: url(./img/pokemon-latias-latios-pixels-wallpaper-preview.jpg);
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/977/955/731/pokemon-latias-latios-pixels-wallpaper-preview.jpg);
   background-size: 165vh;
-}
+  background-attachment: fixed
+} 
 .titulo{
   width: 100%;
   display: flex;
@@ -91,7 +92,8 @@ h1{
   display: flex;
   width: 100%;
   justify-content: space-between;
-
+  top: 0px;
+  position: sticky;
 }
 .logo{
   height: 6rem;

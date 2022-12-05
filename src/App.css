@@ -11,6 +11,7 @@ body{
 h1{
   background-color: #563614;
   color: #61dafb;
+  border-radius: 0.2rem;
 }
 
 
@@ -42,6 +43,7 @@ h1{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -69,7 +71,28 @@ h1{
   background-color: rgb(28, 173, 30);
   color: #61dafb;
 }
-
+.button-primary:disabled{
+  background-color: gray;
+}
+.button-primary:disabled:hover{
+  color: bisque;
+}
+.incButton{
+  width: 30px;
+  font-size: large;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin: 0 0.3rem;
+}
+.contadorText{
+  background-color: aliceblue;
+  padding: 0.3rem 3rem;
+  border-radius: 6px;
+  font-size: large;
+}
+.botonAnadir{
+  margin-top: 0.5rem;
+}
 .products {
   width: 100%;
   display: flex;
@@ -86,6 +109,12 @@ h1{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+.card:hover{
+  background-color: rgba(0, 255, 255);
+}
+.card a:link{
+  text-decoration: none;
 }
 .navBar{
   background-color: #282c34;

@@ -1,0 +1,41 @@
+.boton{
+    background-color: rgb(201, 231, 246);
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+.boton a{
+    font-size: 1.2rem;
+}
+.boton:hover{
+    background-color: rgb(34, 147, 246);
+}
+.sinProd{
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    align-items: center;
+}
+
+.sinProd button{
+    font-size: 1rem;
+    border-radius: 7px;
+    padding: 0.2rem 1rem ;
+    background-color: rgb(78, 182, 235);
+}
+
+.sinProd button a:link{
+    text-decoration: none;
+}
+
+.contenedorPadre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cartContenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 210, 246);
+    border-radius: 2rem;
+    padding: 2rem;
+}

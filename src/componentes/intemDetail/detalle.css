@@ -24,3 +24,21 @@
 .descripcion{
     font-size: 1.6rem;
 }
+.boton{
+    font-size: large;
+    margin: 0 0.7rem;
+    background-color: rgb(203, 231, 255);
+    border-radius: 5px;
+    padding: 0.2rem 0.8rem;
+    border: none;
+}
+.boton a:link{
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: rgb(17, 137, 242);
+}
+
+.boton a:hover{
+    color:wheat
+}

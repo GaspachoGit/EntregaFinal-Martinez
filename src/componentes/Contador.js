@@ -10,10 +10,10 @@ const Contador = ({ texto, initial, stock, onAdd})=>{
     }
     return(
         <div>
-            <button disabled={count <= 0} onClick={resta}>-</button>
-            <span>{count}</span>
-            <button disabled={count >= stock} onClick={suma}>+</button>
-            <div>
+            <button disabled={count <= 0} onClick={resta} className='incButton'>-</button>
+            <span className="contadorText">{count}</span>
+            <button disabled={count >= stock} onClick={suma} className='incButton'>+</button>
+            <div className="botonAnadir">
                 <button disabled={count <= 0} onClick={() => onAdd(count)} className='button-primary'>{texto}</button>
             </div>
         </div>

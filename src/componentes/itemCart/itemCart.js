@@ -10,7 +10,7 @@ const {removerDelCart} = useCartContext();
         <div className="itemCart">
             <img src={product.imgURL} alt={product.pName}/>
             <div>
-                <p>Titulo: {product.pName}</p>
+                <p>Pokestiker: {product.pName}</p>
                 <p>Cantidad: {product.quantity}</p>
                 <p>Precio individual: {product.precio}</p>
                 <p>Sub Total: ${product.quantity * product.precio} </p>

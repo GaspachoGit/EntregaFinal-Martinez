@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import './detalle.css'
-import Contador from "../Contador";
+import Contador from "../contador/Contador";
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/cartContext";
 

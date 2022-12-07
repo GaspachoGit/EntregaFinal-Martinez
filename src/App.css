@@ -94,10 +94,9 @@ h1{
   margin-top: 0.5rem;
 }
 .products {
-  width: 100%;
-  display: flex;
+display: flex;
+flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: flex-start;
 }
 .prodImg{
   height: 15rem;
@@ -107,8 +106,8 @@ h1{
   border-radius: 5px;
   border: solid 2px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  margin: 3% 4%;
+
 }
 .card:hover{
   background-color: rgba(0, 255, 255);

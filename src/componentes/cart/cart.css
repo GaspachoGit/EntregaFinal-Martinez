@@ -39,3 +39,20 @@
     border-radius: 2rem;
     padding: 2rem;
 }
+.formData{
+    display: flex;
+    flex-direction: column;
+}
+
+.formData input{
+    margin-bottom: 1rem;
+}
+.formDat label{
+    
+}
+.formDat button{
+    font-size: 1rem;
+    border-radius: 7px;
+    padding: 0.2rem 1rem ;
+    background-color: rgb(78, 182, 235);
+}
